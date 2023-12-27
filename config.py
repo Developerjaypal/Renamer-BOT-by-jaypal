@@ -8,11 +8,11 @@ API_HASH = os.environ.get("API_HASH", "35709a710e33be401047f08d0199b82b")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "35709a710e33be401047f08d0199b82b") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1001928530174") 
 
 DB_NAME = os.environ.get("DB_NAME","")     
 
-DB_URL = os.environ.get("DB_URL","")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://jaypal_thakor_148:jaypal.008@mk40@atlascluster.fmnvlon.mongodb.net/?retryWrites=true&w=majority")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
